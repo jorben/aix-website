@@ -1,4 +1,4 @@
-module github.com/jorben/aix-me
+module github.com/jorben/aix-website
 
 go 1.24.0
 
