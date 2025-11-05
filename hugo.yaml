@@ -15,6 +15,12 @@ params:
     flexsearch:
       # 索引页面方式: content | summary | heading | title
       index: content
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal
+
 title: 彼岸回响
 module:
   imports:
@@ -42,3 +48,10 @@ menu:
       params:
         icon: github
       url: "https://github.com/jorben/"
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
