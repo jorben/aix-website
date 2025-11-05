@@ -4,13 +4,20 @@ title: 彼岸回响
 layout: hextra-home
 ---
 
+{{< hextra/hero-container
+  image="images/hero.png"
+  imageClass="hx:overflow-hidden hx:rounded-3xl hx:sm:block hx:hidden"
+  imageWidth="500" imageHeight="360"
+  imageTitle="aix.me"
+>}}
+
 {{< hextra/hero-badge >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
   <span>热爱 探索 创造</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
-<div class="hx:mt-6 hx:mb-6">
+<div class="hx:mt-6 hx:mb-6 ">
 {{< hextra/hero-headline >}}
   心有所想，念念不忘&nbsp;<br class="hx:sm:block hx:hidden" />​纵棹沧浪，一苇以航
 {{< /hextra/hero-headline >}}
@@ -27,6 +34,8 @@ layout: hextra-home
 </div>
 
 <div class="hx:mt-6"></div>
+
+{{< /hextra/hero-container >}}
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
