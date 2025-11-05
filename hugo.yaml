@@ -1,0 +1,44 @@
+baseURL: https://aix.me/
+languageCode: en-us
+params:
+  contact:
+    email: jorben@aix.me
+  subtitle: 一个中年程序员的些许爱好与浅思
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # 索引页面方式: content | summary | heading | title
+      index: content
+title: 彼岸回响
+module:
+  imports:
+    - path: github.com/imfing/hextra
+menu:
+  main:
+    - name: 首页
+      pageRef: /
+      weight: 1
+    - name: 项目
+      pageRef: /products/
+      weight: 2
+    - name: 博客
+      pageRef: /blog/
+      weight: 3
+    - name: 关于
+      pageRef: /about/
+      weight: 4
+    - name: 搜索
+      weight: 5
+      params:
+        type: search
+    - name: github
+      weight: 6
+      params:
+        icon: github
+      url: "https://github.com/jorben/"
