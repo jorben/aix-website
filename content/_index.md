@@ -25,7 +25,7 @@ layout: hextra-home
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  滋养心中热爱，灌溉丰盈人生&nbsp;<br class="hx:sm:block hx:hidden" />这里是**脚本小哥**的个人网站，记录一些赛博爱好与浅思
+  滋养心中热爱，灌溉丰盈人生&nbsp;<br class="hx:sm:block hx:hidden" />这里是 **脚本小哥** 的个人网站，记录一些赛博爱好与浅思
 {{< /hextra/hero-subtitle >}}
 </div>
 
