@@ -2,6 +2,7 @@
 date: '2025-11-06T21:33:06+08:00'
 draft: false
 title: 'Products'
+comments: false
 authors:
   - name: Jorben
     link: https://github.com/jorben

@@ -29,6 +29,15 @@ params:
       path: /images/logo.png
       width: 40
       height: 40
+  comments:
+    enable: true
+    type: giscus
+    giscus:
+      repo: jorben/aix-website
+      repoId: R_kgDOQPoEyw
+      category: General
+      categoryId: DIC_kwDOQPoEy84CxgiZ
+      mapping: title
   footer:
     enable: true
     displayCopyright: true
