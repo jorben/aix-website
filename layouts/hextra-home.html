@@ -1,5 +1,40 @@
 {{ define "main" }}
-  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+  <style>
+    .gradient-background {
+      position: relative;
+      overflow: hidden;
+    }
+    .gradient-background::before,
+    .gradient-background::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.4;
+      z-index: -1;
+    }
+    .gradient-background::before {
+      top: 10%;
+      left: 10%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(255, 182, 193, 0.6) 0%, rgba(255, 192, 203, 0.3) 50%, transparent 100%);
+    }
+    .gradient-background::after {
+      top: 4%;
+      right: 8%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(173, 216, 230, 0.6) 0%, rgba(135, 206, 250, 0.3) 50%, transparent 100%);
+    }
+    .dark .gradient-background::before {
+      background: radial-gradient(circle, rgba(255, 182, 193, 0.25) 0%, rgba(255, 192, 203, 0.15) 50%, transparent 100%);
+    }
+    .dark .gradient-background::after {
+      background: radial-gradient(circle, rgba(173, 216, 230, 0.25) 0%, rgba(135, 206, 250, 0.15) 50%, transparent 100%);
+    }
+  </style>
+  <div class='hx:mx-auto hx:flex hextra-max-page-width gradient-background'>
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
     <div class="hx:w-full hx:break-words hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:pb-8 hx:pt-8 hx:md:pt-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-left),1.5rem)]">
       <div class="hx:flex hx:flex-col hx:items-start">

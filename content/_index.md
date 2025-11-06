@@ -5,7 +5,7 @@ layout: hextra-home
 ---
 
 {{< hextra/hero-container
-  image="images/hero_01.png"
+  image="images/hero_02.png"
   imageClass="hx:overflow-hidden hx:rounded-3xl hx:sm:block hx:hidden"
   imageWidth="360"
   imageTitle="aix.me"
