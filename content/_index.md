@@ -5,9 +5,9 @@ layout: hextra-home
 ---
 
 {{< hextra/hero-container
-  image="images/hero_02.png"
-  imageClass="hx:overflow-hidden hx:rounded-3xl hx:sm:block hx:hidden"
-  imageWidth="360"
+  image="images/hero_03.png"
+  imageClass="hx:overflow-hidden hx:rounded-3xl hx:mt-8 hx:sm:block hx:hidden"
+  imageWidth="600"
   imageTitle="aix.me"
 >}}
 
@@ -29,7 +29,7 @@ layout: hextra-home
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx:mb-10">
+<div class="hx:mb-6">
 {{< hextra/hero-button text="开始逛逛" link="blog" >}}
 </div>
 
