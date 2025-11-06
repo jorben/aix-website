@@ -5,9 +5,9 @@ layout: hextra-home
 ---
 
 {{< hextra/hero-container
-  image="images/hero.png"
+  image="images/hero_01.png"
   imageClass="hx:overflow-hidden hx:rounded-3xl hx:sm:block hx:hidden"
-  imageWidth="500" imageHeight="360"
+  imageWidth="360"
   imageTitle="aix.me"
 >}}
 
@@ -19,23 +19,27 @@ layout: hextra-home
 
 <div class="hx:mt-6 hx:mb-6 ">
 {{< hextra/hero-headline >}}
-  心有所想，念念不忘&nbsp;<br class="hx:sm:block hx:hidden" />​纵棹沧浪，一苇以航
+  念念不忘，必有回响&nbsp;<br class="hx:sm:block hx:hidden" />既已扬帆，便渡重洋
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  滋养心中热爱，灌溉丰盈人生&nbsp;<br class="hx:sm:block hx:hidden" />这里是 **脚本小哥** 的个人网站，记录一些赛博爱好与浅思
+  滋养心中热爱，灌溉丰盈人生&nbsp;<br class="hx:sm:block hx:hidden" />这里是 **脚本小哥** 的个人网站，记录一些赛博制作与浅思
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx:mb-6">
+<div class="hx:mb-10">
 {{< hextra/hero-button text="开始逛逛" link="blog" >}}
 </div>
 
-<div class="hx:mt-6"></div>
 
 {{< /hextra/hero-container >}}
+
+<div class="hx:w-full">
+    <hr class="hx:border-gray-200 hx:dark:border-neutral-800 hx:hidden" />
+    <h1 class="hx:text-center hx:mt-12 hx:mb-10 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">探索项目</h1>
+</div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
@@ -62,25 +66,5 @@ layout: hextra-home
     imageClass="hx:top-[40%] hx:left-[36px] hx:w-[110%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
-  {{< hextra/feature-card
-    title="轻如羽毛"
-    subtitle="使用 Hextra 无需依赖 Node.js。由 Hugo 提供支持，Hugo 是最快的静态网站生成器之一，只需一个二进制文件即可在数秒内创建网站。"
-  >}}
-  {{< hextra/feature-card
-    title="响应式布局，暗黑模式"
-    subtitle="适应不同的屏幕尺寸。内置暗黑模式支持，并根据用户的系统偏好自动切换。"
-  >}}
-  {{< hextra/feature-card
-    title="免费构建和托管"
-    subtitle="使用 GitHub Actions 进行构建，并在 GitHub Pages 上免费托管。也可以托管在任何静态托管服务上。"
-  >}}
-  {{< hextra/feature-card
-    title="多语言轻松实现"
-    subtitle="仅需通过在 Markdown 文件后添加语言代码即可创建多语言页面。向您的站点添加 i18n 支持直观易行。"
-  >}}
-  {{< hextra/feature-card
-    title="还有更多..."
-    icon="sparkles"
-    subtitle="代码高亮 / 目录 / SEO / RSS / LaTeX 公式 / Mermaid 图标 / 自定义 / 等等..."
-  >}}
 {{< /hextra/feature-grid >}}
+
