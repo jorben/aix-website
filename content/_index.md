@@ -19,13 +19,13 @@ layout: hextra-home
 
 <div class="hx:mt-6 hx:mb-6 ">
 {{< hextra/hero-headline >}}
-  念念不忘，必有回响&nbsp;<br class="hx:sm:block hx:hidden" />既已扬帆，便渡重洋
+  念念不忘，必有回响<br />既已扬帆，便渡重洋
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  滋养心中热爱，灌溉丰盈人生&nbsp;<br class="hx:sm:block hx:hidden" />这里是 **脚本小哥** 的个人网站，记录一些赛博制作与浅思
+  滋养心中热爱，灌溉丰盈人生<br />这里是 **脚本小哥** 的个人网站，记录一些赛博研究与浅思
 {{< /hextra/hero-subtitle >}}
 </div>
 
