@@ -42,21 +42,8 @@ menu:
       weight: 1
     - name: 项目
       identifier: products
+      pageRef: /products
       weight: 2
-    - name: MarkPDFdown
-      pageRef: /products/markpdfdown/
-      weight: 1
-      parent: products
-      params:
-        icon: bookmark
-        type: link
-    - name: 网格策略分析工具
-      pageRef: /products/etfer/
-      weight: 2
-      parent: products
-      params:
-        icon: bookmark
-        type: link
     - name: 博客
       pageRef: /blog/
       weight: 3

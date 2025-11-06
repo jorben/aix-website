@@ -3,22 +3,20 @@ title: About
 toc: false
 ---
 
-{{< callout >}}
-  **标注** 是一小段旨在吸引注意力的文字。
-{{< /callout >}}
+✨**嗨，你好呀！**
 
-Hextra is designed to be a simple, fast, and flexible theme for building modern static websites. It is especially well-suited for documentation websites but can also be used for various types of sites, such as blogs, portfolios, and more.
+我是 **脚本小哥**，很高兴能在这里与你隔空相遇。
 
-Hugo, like Jekyll, is a static site generator. What sets Hugo apart is that it is a single binary, making it easy to install and run on various platforms. It is also extremely fast and reliable, capable of rendering a site with thousands of pages in milliseconds.
+![Photo1](photo_01.png)
 
-Hextra is built with a mindset focused on having a minimal footprint. To get started, no extra dependencies like Node.js packages are required; all you need is a single YAML configuration file, along with your Markdown content. Thus, we can focus on writing quality content instead of setting up tooling.
+对我来说，最幸福的事莫过于两件：一是用代码和设计，将脑海中的想法变成能解决实际问题的产品；二是在大自然中漫步，让思绪随着咖啡的香气自由飘散。
 
-## Credits
+我的职业身份是一名**软件工程师**，同时也扮演着**产品经理**的角色。这种“双重身份”让我能更好地理解一个想法的始末——从最初聆听用户的需求，到构思产品的形态，再到亲手用代码将其实现。我热衷于扮演这个“翻译官”和“建造者”的角色，**擅长将模糊的用户需求，转化为清晰、可行且优雅的数字化解决方案**，最终为人们的生活或工作带来一丝便利。
 
-Hextra cannot be built without the following tools and inspirations:
+驱动我不断前行的，是内心纯粹的热爱，是解决一个又一个具体问题后带来的成就感。我珍视**热爱**，保持**探索**，并享受**创造**的过程。
 
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Heroicons](https://heroicons.com/)
-- [Nextra](https://nextra.vercel.app/)
-- [Next.js](https://nextjs.org/)
+![Photo2](photo_02.png)
+
+当我不在电脑前敲代码或画原型时，你可能会发现我正揣着一杯热咖啡，在山野间寻找灵感，或者只是安静地看一场日落。我相信，对生活的感知力，是做好一切创造的基础。
+
+这个网站是我分享思考、记录成长的地方。我业余主要专注在**AI产品**、**量化交易**等领域，如果你对我所做的项目感兴趣，有奇妙的想法想碰撞，或者只是想聊聊技术、自然风光与咖啡，都非常欢迎你通过 [ jorben@aix.me ] 与我联系。

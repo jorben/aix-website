@@ -3,8 +3,11 @@ date: '2025-11-05T23:39:24+08:00'
 draft: false
 title: 'MarkPDFdown'
 cascade:
-  type: blog
+  type: docs
 ---
+<div class="hx:mt-6">
+{{< badge content="项目地址" link="https://github.com/markpdfdown/markpdfdown/releases" icon="github" >}}
+</div>
 
 {{< callout >}}
   **MarkPDFdown** A high-quality PDF to Markdown tool based on large language model visual recognition.  一款基于大模型视觉识别的高质量PDF转Markdown工具 
@@ -13,9 +16,7 @@ cascade:
 
 ![GUI版本视图](/images/markpdfdown.png)
 
-<div class="hx:mt-6">
-{{< badge content="项目地址" link="https://github.com/markpdfdown/markpdfdown/releases" icon="github" >}}
-</div>
+
 
 ## CLI版本
 
