@@ -6,6 +6,9 @@ authors:
   - name: Jorben
     link: https://github.com/jorben
     image: https://github.com/jorben.png
+tags:
+  - Python
+  - uv
 ---
 
 在 Python 项目开发中，我们常常面临一个场景：**使用现代化的工具进行开发，但需要在标准化的生产环境中部署。** 近年来，[`uv`](https://github.com/astral-sh/uv) 以其闪电般的速度成为了 Python 项目管理的新宠，极大地提升了依赖安装和虚拟环境管理的效率。
