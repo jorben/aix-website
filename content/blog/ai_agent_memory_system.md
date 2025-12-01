@@ -1,6 +1,6 @@
 ---
 date: '2025-12-01T15:00:00+08:00'
-draft: true
+draft: false
 title: 'AI Agent记忆系统设计：如何构建有效的短期和长期记忆机制'
 authors:
   - name: Jorben
@@ -18,7 +18,7 @@ tags:
 如果把AI Agent比作一个智能实体，那么记忆系统就是它的"大脑皮层"——负责存储经验、提取知识、指导决策。本文将从技术架构角度，深入探讨如何为AI Agent构建完整的记忆系统，涵盖从临时对话到长期知识积累的全流程设计。
 
 <!--more-->
-
+![Photo1](attachment/agent_memory.png "Agent Memory System")
 ## **记忆系统的重要性与挑战**
 
 AI Agent在实际应用中面临的最大挑战之一就是"金鱼记忆"——每次对话都像重新认识用户。要构建真正智能的Agent，必须解决以下核心问题：
